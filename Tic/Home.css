@@ -1,0 +1,45 @@
+﻿body {
+    background-image:url("tictac.png");
+}
+
+
+#T1,#T2,#T3,#T4,#T5,#T6,#T7,#T8,#T9
+{
+    
+    background-color:#ff8a80;
+    border-color:black;
+    font-size:25px;
+    text-align:center;
+    color:#922727;
+}
+#Play_Game,#Button_Reset,#Button_Add
+{
+     border-radius:12px;
+     background-color:#215632;
+    font-size:25px;
+     text-align:center;
+    color:white;
+
+}
+.MainContent
+{
+    display:flex;
+}
+.AllLabels 
+{
+    text-align:center;
+    flex:1;
+    color:yellow;
+    max-width:30%;
+    min-width:25%;
+    font-size:20px;
+}
+.AllLabels aside
+{
+    text-align:left;
+}
+.AllButtons{
+    width:70%;
+    overflow:hidden;
+   
+}
